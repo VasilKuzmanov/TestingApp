@@ -42,6 +42,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         ]}>
         {title}
       </Text>
+      <Text>Hello World</Text>
       <Text
         style={[
           styles.sectionDescription,
@@ -76,14 +77,14 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="--Най- накрая успяхме--">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
-          <Section title="Debug">
+          <Section title="Debug"> 
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
